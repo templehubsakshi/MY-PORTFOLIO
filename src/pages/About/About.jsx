@@ -28,35 +28,32 @@ export default function About() {
       data-aos="fade-up"
       data-aos-duration="800"
     >
-      <ul className="space-y-4 text-[1.15rem] md:text-[1.25rem] leading-relaxed text-gray-300">
+     <ul className="space-y-4 text-[1.15rem] md:text-[1.25rem] leading-relaxed text-gray-300">
   <li className="flex items-start gap-3">
     <span className="text-cyan-400 text-xl">✦</span>
-    Second-year CSE student at KIET, building a strong base in systems and development.
+    Third-year Computer Science Engineering student at KIET, building a strong foundation in software development and system design.
   </li>
   <li className="flex items-start gap-3">
     <span className="text-cyan-400 text-xl">✦</span>
-    I bring ideas to life by writing clean, efficient, and scalable code.
+    Passionate about developing clean, scalable, and user-focused applications using modern web technologies.
   </li>
   <li className="flex items-start gap-3">
     <span className="text-cyan-400 text-xl">✦</span>
-    Strong grip on DSA, actively solving problems across LeetCode and CodeChef.
+    Consistently practicing Data Structures and Algorithms on platforms like LeetCode and CodeChef to strengthen problem-solving skills.
   </li>
   <li className="flex items-start gap-3">
     <span className="text-cyan-400 text-xl">✦</span>
-    Participated in hackathons and coding contests to test skills under pressure.
+    Experience working on full-stack projects and collaborating in team-based environments and hackathons.
   </li>
   <li className="flex items-start gap-3">
     <span className="text-cyan-400 text-xl">✦</span>
-    Always learning — exploring new tech, APIs, and building side projects hands-on.
+    Actively exploring backend systems, APIs, and modern frameworks to build production-ready applications.
   </li>
   <li className="flex items-start gap-3">
     <span className="text-cyan-400 text-xl">✦</span>
-    Off the screen, I enjoy long walks, deep thinking, and staying creatively curious.
+    Outside of coding, I enjoy reflective walks, creative thinking, and continuously challenging myself to grow both personally and professionally.
   </li>
 </ul>
-
-
-
 
     </div>
   </div>

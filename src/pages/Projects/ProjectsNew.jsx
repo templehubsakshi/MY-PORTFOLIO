@@ -12,16 +12,28 @@ import currency from "@/assets/images/currencyconverter.PNG";
 import portfolio from "@/assets/images/final.PNG";
 import tictac from "@/assets/images/tictac.png";  // Added tic-tac-toe image import
 import port from "@/assets/images/port.PNG";
+import movie from "@/assets/images/movieticketbooking.pNG";
 
 const projects = [
+  {
+  title: "Movie Ticket Booking Platform",
+  description:
+    "Book movie tickets online, select seats, view show timings, and make secure payments with a cinematic booking experience.",
+  src: movie,
+  color: "#00e5ff",
+  githubLink: "https://github.com/templehubsakshi/Movie-Ticket-Booking.git",
+  liveLink: "https://movie-ticket-booking-gilt.vercel.app",
+},
+
+
   {
     title: "GreenRank - Eco Initiative Platform",
     description:
       "Track and reward eco-friendly actions. Promotes environmental awareness.",
     src: project1,
     color: "#4caf50",
-    githubLink: "https://github.com/yourusername/greenrank",
-    liveLink: "https://yourliveurl.com/greenrank",
+    githubLink: "https://github.com/templehubsakshi/GreenRank.git",
+    liveLink: "https://greenrank.netlify.app/",
   },
   {
     title: "Trekup - Travel Explorer",
@@ -29,16 +41,16 @@ const projects = [
       "Discover hidden destinations, book trips, and explore travel experiences.",
     src: trekup,
     color: "#ff7043",
-    githubLink: "https://github.com/yourusername/trekup",
-    liveLink: "https://yourliveurl.com/trekup",
+    githubLink: "https://github.com/templehubsakshi/INNOTECH-2025.git",
+    liveLink: "https://innotech-2025.vercel.app",
   },
   {
     title: "Chess Game",
     description: "A basic chess game using HTML, CSS, and JavaScript.",
     src: chess,
     color: "#607d8b",
-    githubLink: "https://github.com/yourusername/chess-game",
-    liveLink: "https://yourliveurl.com/chess",
+    githubLink: "https://github.com/templehubsakshi/chess.git",
+    liveLink: "https://github.com/templehubsakshi/chess.git",
   },
   {
     title: "Personal Portfolio",
@@ -46,8 +58,8 @@ const projects = [
       "A modern portfolio showcasing skills, projects, and contact using React + Tailwind.",
     src: port,
     color: "#3f51b5",
-    githubLink: "https://github.com/yourusername/personal-portfolio",
-    liveLink: "https://yourliveurl.com/personal-portfolio",
+    githubLink: "https://github.com/templehubsakshi/MY-PORTFOLIO.git",
+    liveLink: "https://templehubsakshi.github.io/MY-PORTFOLIO",
   },
   
   {
@@ -74,8 +86,8 @@ const projects = [
       "Create, edit, and delete blog posts with a clean CRUD interface.",
     src: post,
     color: "#9c27b0",
-    githubLink: "https://github.com/yourusername/post-management",
-    liveLink: "https://yourliveurl.com/post",
+    githubLink: "https://github.com/templehubsakshi/post-management-app.git",
+    liveLink: "https://github.com/templehubsakshi/post-management-app.git",
   },
   {
     title: "Currency Converter",
@@ -120,10 +132,15 @@ export default function ProjectsNew() {
               WebkitBoxShadow: `0 0 15px 4px ${color}aa`,
             }}
           >
-            <span
+            {/* <span
               className="absolute -inset-1 rounded-3xl opacity-60 blur-xl animate-pulse"
               style={{ boxShadow: `0 0 30px 6px ${color}` }}
-            ></span>
+            ></span> */}
+            <span
+  className="pointer-events-none absolute -inset-1 rounded-3xl opacity-60 blur-xl animate-pulse"
+  style={{ boxShadow: `0 0 30px 6px ${color}` }}
+></span>
+
 
             <motion.img
               src={src}

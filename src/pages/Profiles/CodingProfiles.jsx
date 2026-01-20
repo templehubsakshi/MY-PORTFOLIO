@@ -48,7 +48,7 @@ const CodingProfilesSection = () => {
       platform: "LeetCode",
       link: "https://leetcode.com/u/sakshi_7880/",
       description:
-        "Rating: 1596 | Global Rank: Top 23% | 537+ Problems Solved | 7 Badges Earned | 20+ Contests",
+        "Rating: 1596 | Global Rank: Top 23% | 700+ Problems Solved | 7 Badges Earned | 20+ Contests",
       ringColor: "ring-yellow-400/70"
     },
     {

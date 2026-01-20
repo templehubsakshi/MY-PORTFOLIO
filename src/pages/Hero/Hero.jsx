@@ -69,7 +69,7 @@ export default function Hero() {
     <i className="fab fa-linkedin" aria-hidden="true"></i>
   </a>
   <a
-    href="https://github.com/sakshi788"
+    href="https://github.com/templehubsakshi"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="GitHub"
@@ -78,7 +78,7 @@ export default function Hero() {
     <i className="fab fa-github" aria-hidden="true"></i>
   </a>
   <a
-    href="https://twitter.com/yourhandle"
+    href="https://twitter.com/templehubsakshi"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Twitter"
@@ -102,7 +102,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-center gap-5 mt-6">
             {/* Resume Button */}
             <a
-              href="/SakshiGupta_Resume.pdf"
+              href="/SARE1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center px-8 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-teal-400 shadow-lg hover:shadow-teal-400/50 transition duration-300 transform hover:scale-105"
