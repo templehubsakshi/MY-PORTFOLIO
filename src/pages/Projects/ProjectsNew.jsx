@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import project1 from "@/assets/images/poject1.jpeg";
+import work from "@/assets/images/image.png";
 import trekup from "@/assets/images/final.PNG";
 import chess from "@/assets/images/chess.png";
 import todo from "@/assets/images/todo.png";
@@ -25,7 +26,15 @@ const projects = [
   liveLink: "https://movie-ticket-booking-gilt.vercel.app",
 },
 
-
+{
+    title: "FlowSpace - Collaborative Workspace",
+    description:
+      "A collaborative workspace platform like Jira with Kanban boards, real-time updates, notifications, and task management.",
+    src: work, // You can replace 'port' with the actual image of FlowSpace if available
+    color: "#00ffea",
+    githubLink: "https://github.com/templehubsakshi/FlowSpace.git",
+    liveLink: "https://flow-space-black.vercel.app",
+  },
   {
     title: "GreenRank - Eco Initiative Platform",
     description:
