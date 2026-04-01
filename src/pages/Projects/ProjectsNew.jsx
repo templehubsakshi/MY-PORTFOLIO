@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import project1 from "@/assets/images/poject1.jpeg";
-import work from "@/assets/image.png";
+import work from "@/assets/images/image.png";
 import trekup from "@/assets/images/final.PNG";
 import chess from "@/assets/images/chess.png";
 import todo from "@/assets/images/todo.png";
