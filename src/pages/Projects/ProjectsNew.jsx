@@ -3,34 +3,32 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import project1 from "@/assets/images/poject1.jpeg";
-// import work from "@/assets/images/image.png";
+import work from "@/assets/images/image.png";
 import trekup from "@/assets/images/final.PNG";
 import chess from "@/assets/images/chess.png";
 import todo from "@/assets/images/todo.png";
 import weather from "@/assets/images/weather.png";
 import post from "@/assets/images/post.png";
 import currency from "@/assets/images/currencyconverter.PNG";
-import portfolio from "@/assets/images/final.PNG";
-import tictac from "@/assets/images/tictac.png";  // Added tic-tac-toe image import
+import tictac from "@/assets/images/tictac.png";
 import port from "@/assets/images/port.PNG";
-import movie from "@/assets/images/movieticketbooking.pNG";
+import movie from "@/assets/images/movieticketbooking.PNG";
 
 const projects = [
   {
-  title: "Movie Ticket Booking Platform",
-  description:
-    "Book movie tickets online, select seats, view show timings, and make secure payments with a cinematic booking experience.",
-  src: movie,
-  color: "#00e5ff",
-  githubLink: "https://github.com/templehubsakshi/Movie-Ticket-Booking.git",
-  liveLink: "https://movie-ticket-booking-gilt.vercel.app",
-},
-
-{
+    title: "Movie Ticket Booking Platform",
+    description:
+      "Book movie tickets online, select seats, view show timings, and make secure payments with a cinematic booking experience.",
+    src: movie,
+    color: "#00e5ff",
+    githubLink: "https://github.com/templehubsakshi/Movie-Ticket-Booking.git",
+    liveLink: "https://movie-ticket-booking-gilt.vercel.app",
+  },
+  {
     title: "FlowSpace - Collaborative Workspace",
     description:
       "A collaborative workspace platform like Jira with Kanban boards, real-time updates, notifications, and task management.",
-    src: work, // You can replace 'port' with the actual image of FlowSpace if available
+    src: work,
     color: "#00ffea",
     githubLink: "https://github.com/templehubsakshi/FlowSpace.git",
     liveLink: "https://flow-space-black.vercel.app",
@@ -70,15 +68,14 @@ const projects = [
     githubLink: "https://github.com/templehubsakshi/MY-PORTFOLIO.git",
     liveLink: "https://templehubsakshi.github.io/MY-PORTFOLIO",
   },
-  
   {
-    title: " Todo App",
+    title: "Todo App",
     description:
-      "Combined sleek portfolio with a to-do management app for daily productivity.",
+      "Task management app for daily productivity with clean UI.",
     src: todo,
     color: "#8f89ff",
-    githubLink: "https://github.com/yourusername/portfolio-todo",
-    liveLink: "https://yourliveurl.com/portfolio-todo",
+    githubLink: "https://github.com/templehubsakshi/post-management-app.git",
+    liveLink: "https://github.com/templehubsakshi/post-management-app.git",
   },
   {
     title: "Weather Forecast App",
@@ -86,8 +83,8 @@ const projects = [
       "Real-time weather updates for any city using API integration.",
     src: weather,
     color: "#00bcd4",
-    githubLink: "https://github.com/yourusername/weather-app",
-    liveLink: "https://yourliveurl.com/weather",
+    githubLink: "https://github.com/templehubsakshi/MY-PORTFOLIO.git",
+    liveLink: "https://templehubsakshi.github.io/MY-PORTFOLIO",
   },
   {
     title: "Post Management",
@@ -104,18 +101,17 @@ const projects = [
       "Convert between currencies using real-time exchange rates.",
     src: currency,
     color: "#009688",
-    githubLink: "https://github.com/yourusername/currency-converter",
-    liveLink: "https://yourliveurl.com/currency-converter",
+    githubLink: "https://github.com/templehubsakshi/MY-PORTFOLIO.git",
+    liveLink: "https://templehubsakshi.github.io/MY-PORTFOLIO",
   },
   {
     title: "Tic-Tac-Toe Game",
     description: "Classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript.",
     src: tictac,
     color: "#ff5722",
-    githubLink: "https://github.com/yourusername/tic-tac-toe",
-    liveLink: "https://yourliveurl.com/tic-tac-toe",
+    githubLink: "https://github.com/templehubsakshi/MY-PORTFOLIO.git",
+    liveLink: "https://templehubsakshi.github.io/MY-PORTFOLIO",
   },
-  
 ];
 
 export default function ProjectsNew() {
@@ -141,15 +137,10 @@ export default function ProjectsNew() {
               WebkitBoxShadow: `0 0 15px 4px ${color}aa`,
             }}
           >
-            {/* <span
-              className="absolute -inset-1 rounded-3xl opacity-60 blur-xl animate-pulse"
-              style={{ boxShadow: `0 0 30px 6px ${color}` }}
-            ></span> */}
             <span
-  className="pointer-events-none absolute -inset-1 rounded-3xl opacity-60 blur-xl animate-pulse"
-  style={{ boxShadow: `0 0 30px 6px ${color}` }}
-></span>
-
+              className="pointer-events-none absolute -inset-1 rounded-3xl opacity-60 blur-xl animate-pulse"
+              style={{ boxShadow: `0 0 30px 6px ${color}` }}
+            ></span>
 
             <motion.img
               src={src}
