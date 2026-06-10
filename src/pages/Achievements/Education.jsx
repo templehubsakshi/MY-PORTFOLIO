@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Trophy, FileText, Award } from "lucide-react";
 
-import project1 from "@/assets/images/patent.png";
+import project1 from "@/assets/images/patent.PNG";
 import project2 from "@/assets/images/ACHIEVE.jpg";
 import project3 from "@/assets/images/flipkart.jpg";
 import project4 from "@/assets/images/cert.PNG";
